@@ -34,7 +34,7 @@ Vue.use(VueApollo);
 
 const httpLink = createHttpLink({
   // uri: "http://localhost:4000",  // for localhost development
-  uri: "http://https://ome-pic-share.herokuapp.com/graphql",
+  uri: "https://ome-pic-share.herokuapp.com/",
   /**
    * Read Further on "credentials" here
    * https://www.apollographql.com/docs/react/networking/authentication/
